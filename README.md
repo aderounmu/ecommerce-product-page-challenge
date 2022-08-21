@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/aderounmu/ecommerce-product-page-challenge/tree/main](https://github.com/aderounmu/ecommerce-product-page-challenge/tree/main)
-- Live Site URL: [https://github.com/aderounmu/ecommerce-product-page-challenge/](https://github.com/aderounmu/ecommerce-product-page-challenge/)
+- Live Site URL: [https://aderounmu.github.io/ecommerce-product-page-challenge/](https://aderounmu.github.io/ecommerce-product-page-challenge/)
 
 ## My process
 
