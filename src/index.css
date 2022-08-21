@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +7,75 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* font-family: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif; */
+  font-family: 'Kumbh Sans';
+  /* background-color: red; */
+}
+
+:root {
+  --CustomOrange: hsl(26, 100%, 55%);
+  --CustomPaleOrange: hsl(25, 100%, 94%);
+  --CustomVeryVarkBlue: hsl(220, 13%, 13%);
+  --CustomDarkGrayishBlue: hsl(219, 9%, 45%);
+  --CustomGrayishBlue: hsl(220, 14%, 75%);
+  --CustomLightGrayishBlue: hsl(223, 64%, 98%);
+  --CustomWhite: hsl(0, 0%, 100%);
+  --CustomBlackOpcacity : hsla(0, 0%, 0%,0.6); /*(with 75% opacity for lightbox background)*/
+  --CustomBlack : hsla(0, 0%, 0%);
+  --CustomOrangeOpacity: hsla(26, 100%, 55% ,0.30);
+}
+
+
+
+.customWhite-bg {
+  background-color: var(--CustomWhite);
+}
+.customWhite-text {
+  color: var(--CustomWhite);
+}
+.customBlack-text {
+  color: var(--CustomBlack);
+}
+
+.customModal-bg{
+  background-color: var(--CustomBlackOpcacity);
+}
+
+.customOrange-text{
+  color:var(--CustomOrange);
+}
+.customDarkGrayishBlue-text{
+  color:var(--CustomDarkGrayishBlue);
+}
+.customOrangeOpacity-bg{
+  background-color: var(--CustomOrangeOpacity);
+}
+.customOrange-bg{
+  background-color: var(--CustomOrange);
+}
+
+.customCustomLightGrayishBlue-bg{
+  background-color:var(--CustomLightGrayishBlue);
+}
+
+.customOrangeBorder{
+ border-color: var(--CustomOrange); 
+}
+
+.customCustomDarkGrayishBlue-bg{
+  background-color: var(--CustomDarkGrayishBlue);
 }
